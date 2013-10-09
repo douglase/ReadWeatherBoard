@@ -35,7 +35,7 @@ import signal
 sign = functools.partial(math.copysign, 1) # http://stackoverflow.com/questions/1986152/why-python-doesnt-have-a-sign-function
 
 port="/dev/ttyUSB1"
-cadence=2 #seconds, between sets of readscx
+cadence=2 #seconds, between sets of reads
 
 print("Cadence: "+str(cadence)+" seconds")
 print("ctr-c to quit.")
